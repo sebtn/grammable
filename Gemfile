@@ -39,9 +39,10 @@ gem 'simple_form'
 # Add devise for authentication
 gem 'devise', '>= 3.2.4'
 
-# Add Rspec to do TDD
+# Add Rspec and factory girl to do TDD
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem 'factory_girl_rails', "~> 4.0"
 end
 
 group :doc do
