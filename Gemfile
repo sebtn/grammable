@@ -36,6 +36,9 @@ gem 'sprockets', '2.11.0'
 # Add simple form
 gem 'simple_form'
 
+# Add devise for authentication
+gem 'devise', '>= 3.2.4'
+
 # Add Rspec to do TDD
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
