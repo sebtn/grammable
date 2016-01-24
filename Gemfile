@@ -33,6 +33,9 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 # Add sprockets
 gem 'sprockets', '2.11.0'
 
+# Add simple form
+gem 'simple_form'
+
 # Add Rspec to do TDD
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
