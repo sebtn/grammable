@@ -1,1 +1,4 @@
-<h2>Do a simple form for edit</h2>
+<%= simple_form_for @gram do |f| %>
+  <%= f.input :message %>
+  <%= f.submit %>
+<% end %>
