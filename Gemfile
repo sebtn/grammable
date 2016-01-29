@@ -39,6 +39,15 @@ gem 'simple_form'
 # Add devise for authentication
 gem 'devise', '>= 3.2.4'
 
+#Add carrierwave for image uploading
+gem 'carrierwave'
+
+# Add figaro 
+gem "figaro"
+
+# Add fog AWS
+gem "fog", "~> 1.3.1"
+
 # Add Rspec and factory girl to do TDD
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
