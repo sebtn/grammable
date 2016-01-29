@@ -48,6 +48,9 @@ gem "figaro"
 # Add fog AWS
 gem "fog", "~> 1.3.1"
 
+#Add factor
+gem 'rails_12factor', group: :production
+
 # Add Rspec and factory girl to do TDD
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
